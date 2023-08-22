@@ -1,0 +1,58 @@
+colors.draw_bold_text_with_bright_colors = true
+import = [ "~/.config/alacritty/catppuccin-mocha.yml" ]
+
+[colors.primary]
+background = "#1a1b26"
+foreground = "#a9b1d6"
+
+[window]
+opacity = 0.94
+
+  [window.padding]
+  x = 10
+  y = 10
+
+  [window.class]
+  instance = "Alacritty"
+  general = "Alacritty"
+
+[scrolling]
+history = 10_000
+multiplier = 3
+
+[font]
+size = 9
+
+  [font.normal]
+  family = "Jetbrains Mono"
+  style = "Bold"
+
+  [font.bold]
+  family = "Jetbrains Mono"
+  style = "Bold"
+
+  [font.italic]
+  family = "Jetbrains Mono"
+  style = "Bold"
+
+  [font.bold_italic]
+  family = "Jetbrains Mono"
+  style = "Bold Italic"
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/zsh"
+args = [
+  "-l",
+  "-c",
+  "cd /home/ahmed/Documents/repos/dams && exec zsh"
+]
+
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Super|Shift"
+action = "SpawnNewInstance"
+
