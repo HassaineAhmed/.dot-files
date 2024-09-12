@@ -1,0 +1,3 @@
+[submodule ".dot-files"]
+	path = .dot-files
+	url = https://github.com/hassaineahmed/.dot-files
